@@ -18,9 +18,21 @@ int main()
 
   glLoadIdentity();
   glBegin(GL_TRIANGLES);
+
+
+  for(int f = 0; f < 100; f++){
+	glVertex3i(f,1,-10);
+	glVertex3i(f,-1,-10);
+	glVertex3i(1,f,-10);
+	glVertex3i(f,-1,-10);
+  }
+
+  /*
   glVertex3i(1,1,-10);
   glVertex3i(1,-1,-10);
   glVertex3i(-1,1,-10);
+  */
+
   glEnd();
   SDL_GL_SwapBuffers();
   
