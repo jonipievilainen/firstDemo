@@ -1,7 +1,11 @@
 #include "GL/gl.h"
 #include "SDL/SDL.h"
 
-/*gcc -Os -fomit-frame-pointer first.c -lGL -lSDL -o first*/
+/*
+GL  // sudo apt-get install mesa-common-dev
+SDL // sudo apt-get install libsdl1.2-dev
+gcc -Os -fomit-frame-pointer first.c -lGL -lSDL -o first
+*/
 
 int main()
 {
